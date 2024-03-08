@@ -63,7 +63,7 @@
         </Grid>
 
 
-        <Label Grid.Row="2" Grid.Column="0" Content="Inventory" Background="Aqua"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Inventory" Background="LightGray"/>
         <Label Grid.Row="1" Grid.Column="1" Content="Game Messages" Background="Azure"/>
         <!-- Item/ Item Action Bottons-->
         <Grid Grid.Row="2" Grid.Column="1">
@@ -72,8 +72,8 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             
-            <Label Grid.Row="0" Grid.Column="0" Content="Item Image" Background="Beige"/>
-            <Label Grid.Row="0" Grid.Column="1" Content="Item Bottons" Background="Beige"/>
+            <Label Grid.Row="0" Grid.Column="0" Content="Item Image" Background="Bisque"/>
+            <Label Grid.Row="0" Grid.Column="1" Content="Item Bottons" Background="Bisque"/>
         </Grid>
 
         <!-- Location info/Enemy Info-->
@@ -112,7 +112,7 @@
 
             <Label Grid.Row="1" Grid.Column="0" Content="Enemy Information" Background="Bisque"/>
         </Grid>
-        <Label Grid.Row="2" Grid.Column="2" Content="Navigation Bottons" Background="BurlyWood"/>
+        <Label Grid.Row="2" Grid.Column="2" Content="Navigation Bottons" Background="LightGray"/>
         <Grid Grid.Row="2" Grid.Column="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
