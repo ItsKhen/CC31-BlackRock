@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ta4hAMAUecgAXYojEIghasFtXxuafljTvVjk/RZWfyAlo4ngslmZ0NvClr5LGOn3zXw8SztX7nJQl6TCrmLZCg==",
+  "dgSpecHash": "qodX/EbU2SzGDfEqwEUMPKgh9z0lQXoiBbBH5pO83YIPnQhgvjKf3u9MW6tznBeb5PFh609u+rHuLL0tuej6FQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Game\\CC31B-Blackrock.csproj",
+  "projectFilePath": "C:\\Users\\khenert\\CC31-BlackRock\\Game\\CC31B-Blackrock.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

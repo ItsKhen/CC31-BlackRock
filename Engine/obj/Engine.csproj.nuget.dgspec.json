@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj": {}
+    "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj": {
+    "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj",
+        "projectUniqueName": "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj",
+        "projectPath": "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj",
         "packagesPath": "C:\\Users\\khenert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\obj\\",
+        "outputPath": "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khenert\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Game\\CC31B-Blackrock.csproj": {}
+    "C:\\Users\\khenert\\CC31-BlackRock\\Game\\CC31B-Blackrock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj": {
+    "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj",
+        "projectUniqueName": "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj",
+        "projectPath": "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj",
         "packagesPath": "C:\\Users\\khenert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\obj\\",
+        "outputPath": "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khenert\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Game\\CC31B-Blackrock.csproj": {
+    "C:\\Users\\khenert\\CC31-BlackRock\\Game\\CC31B-Blackrock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Game\\CC31B-Blackrock.csproj",
+        "projectUniqueName": "C:\\Users\\khenert\\CC31-BlackRock\\Game\\CC31B-Blackrock.csproj",
         "projectName": "CC31B-Blackrock",
-        "projectPath": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Game\\CC31B-Blackrock.csproj",
+        "projectPath": "C:\\Users\\khenert\\CC31-BlackRock\\Game\\CC31B-Blackrock.csproj",
         "packagesPath": "C:\\Users\\khenert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Game\\obj\\",
+        "outputPath": "C:\\Users\\khenert\\CC31-BlackRock\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khenert\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj": {
-                "projectPath": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj"
+              "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj": {
+                "projectPath": "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj"
               }
             }
           }

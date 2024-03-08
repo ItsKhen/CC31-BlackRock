@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3WmOJrglusAC5ao3oXVJNyNJTGnQjs0Q92hcYDt5+QLT2uZsnTm+qsYm8ebNDjLvxdGkz2o2T75jolgSc4lSBw==",
+  "dgSpecHash": "2KrpaBK0zhP6a6DZFk3Guwsh8MCr+kOxErL+SEi04nRpEugg6yH1cJSRcu1YvLURLwKiyGsYRTw56oc7EDhgwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\khenert\\source\\repos\\CC31B-Blackrock\\Engine\\Engine.csproj",
+  "projectFilePath": "C:\\Users\\khenert\\CC31-BlackRock\\Engine\\Engine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
