@@ -7,7 +7,34 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Image\8Mile.png" />
+    <None Remove="Image\AntolinDen.png" />
+    <None Remove="Image\BanditWood.png" />
+    <None Remove="Image\BossMecha.png" />
+    <None Remove="Image\Exit.png" />
+    <None Remove="Image\GangBoss.png" />
+    <None Remove="Image\JCVillage.png" />
+    <None Remove="Image\Khenert%27s Arch.png" />
+    <None Remove="Image\SafeHouse.png" />
+    <None Remove="Image\Tower.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Image\Locations\" />
+    <Folder Include="Image\Locations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\8Mile.png" />
+    <Resource Include="Image\AntolinDen.png" />
+    <Resource Include="Image\BanditWood.png" />
+    <Resource Include="Image\BossMecha.png" />
+    <Resource Include="Image\Exit.png" />
+    <Resource Include="Image\GangBoss.png" />
+    <Resource Include="Image\JCVillage.png" />
+    <Resource Include="Image\Khenert's Arch.png" />
+    <Resource Include="Image\SafeHouse.png" />
+    <Resource Include="Image\Tower.png" />
   </ItemGroup>
 
 </Project>

@@ -84,7 +84,10 @@
             </Grid.RowDefinitions>
 
             <!-- Location Image-->
-            <Grid Grid.Row="0" Grid.Column="0" Background="Azure">
+            <Grid Grid.Row="0" Grid.Column="0">
+                <Grid.Background>
+                    <ImageBrush ImageSource="{Binding CurrentLocation.ImageName}" Stretch="UniformToFill"/>
+                </Grid.Background>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
@@ -92,25 +95,28 @@
                 </Grid.RowDefinitions>
                 <Border Grid.Row="0" BorderBrush="Gainsboro" BorderThickness="1" Margin="3">
                     <TextBlock Grid.Row="0"
-                           HorizontalAlignment="Center"
-                           Text="{Binding CurrentLocation.Name}"/>
+               HorizontalAlignment="Center"
+               Text="{Binding CurrentLocation.Name}"/>
                 </Border>
 
-                <Image Grid.Row="1"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
-                           Height="150"
-                           Width="150"
-                           Source="{Binding CurrentLocation.ImageName}"/>
-
                 <TextBlock Grid.Row="2"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center"
-                               Text="{Binding CurrentLocation.Description}"
-                               TextWrapping="Wrap"/>
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Text="{Binding CurrentLocation.Description}"
+               TextWrapping="Wrap"/>
             </Grid>
 
-            <Label Grid.Row="1" Grid.Column="0" Content="Enemy Information" Background="Bisque"/>
+            <Border Grid.Row="1" Grid.Column="0" Background="Bisque">
+                <Grid>
+                    <!-- Add your image here -->
+                    <Image Source="YourImagePath" Stretch="UniformToFill" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                    <!-- Optionally, add text or other elements below the image -->
+                    <TextBlock Text="Enemy Information" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
+            </Border>
+        
+        
         </Grid>
         <Label Grid.Row="2" Grid.Column="2" Content="Navigation Bottons" Background="LightGray"/>
         <Grid Grid.Row="2" Grid.Column="2">

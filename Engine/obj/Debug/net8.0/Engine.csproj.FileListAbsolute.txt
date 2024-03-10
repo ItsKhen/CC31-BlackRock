@@ -60,3 +60,16 @@ C:\Users\khenert\source\repos\CC31B-Blackrock\Engine\obj\Debug\net8.0\Engine.dll
 C:\Users\khenert\source\repos\CC31B-Blackrock\Engine\obj\Debug\net8.0\refint\Engine.dll
 C:\Users\khenert\source\repos\CC31B-Blackrock\Engine\obj\Debug\net8.0\Engine.pdb
 C:\Users\khenert\source\repos\CC31B-Blackrock\Engine\obj\Debug\net8.0\ref\Engine.dll
+D:\Repo\Engine\bin\Debug\net8.0\Engine.deps.json
+D:\Repo\Engine\bin\Debug\net8.0\Engine.dll
+D:\Repo\Engine\bin\Debug\net8.0\Engine.pdb
+D:\Repo\Engine\obj\Debug\net8.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repo\Engine\obj\Debug\net8.0\Engine.AssemblyInfoInputs.cache
+D:\Repo\Engine\obj\Debug\net8.0\Engine.AssemblyInfo.cs
+D:\Repo\Engine\obj\Debug\net8.0\Engine.csproj.CoreCompileInputs.cache
+D:\Repo\Engine\obj\Debug\net8.0\Engine.sourcelink.json
+D:\Repo\Engine\obj\Debug\net8.0\Engine.dll
+D:\Repo\Engine\obj\Debug\net8.0\refint\Engine.dll
+D:\Repo\Engine\obj\Debug\net8.0\Engine.pdb
+D:\Repo\Engine\obj\Debug\net8.0\ref\Engine.dll
+D:\Repo\Engine\obj\Debug\net8.0\Engine.g.resources

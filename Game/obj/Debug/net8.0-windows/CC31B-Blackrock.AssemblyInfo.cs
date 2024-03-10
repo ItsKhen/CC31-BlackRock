@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CC31B-Blackrock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b825f33e160aa1a5eaf4168dd62016574d2488a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8359579775ecc61d25f08c12dc2838dfe53ade89")]
 [assembly: System.Reflection.AssemblyProductAttribute("CC31B-Blackrock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CC31B-Blackrock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
