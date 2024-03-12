@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\Engine\\Engine.csproj",
+      "projectUniqueName": "C:\\Repo\\Engine\\Engine.csproj",
       "projectName": "Engine",
-      "projectPath": "D:\\Repo\\Engine\\Engine.csproj",
+      "projectPath": "C:\\Repo\\Engine\\Engine.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\Engine\\obj\\",
+      "outputPath": "C:\\Repo\\Engine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

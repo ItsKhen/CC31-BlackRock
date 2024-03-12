@@ -15,6 +15,7 @@
     <None Remove="Image\GangBoss.png" />
     <None Remove="Image\JCVillage.png" />
     <None Remove="Image\Khenert%27s Arch.png" />
+    <None Remove="Image\Player Image\Doom.gif" />
     <None Remove="Image\SafeHouse.png" />
     <None Remove="Image\Tower.png" />
   </ItemGroup>
@@ -33,6 +34,7 @@
     <Resource Include="Image\GangBoss.png" />
     <Resource Include="Image\JCVillage.png" />
     <Resource Include="Image\Khenert's Arch.png" />
+    <Resource Include="Image\Player Image\Doom.gif" />
     <Resource Include="Image\SafeHouse.png" />
     <Resource Include="Image\Tower.png" />
   </ItemGroup>

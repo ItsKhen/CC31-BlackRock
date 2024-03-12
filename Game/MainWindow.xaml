@@ -22,7 +22,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="250"/>
         </Grid.ColumnDefinitions>
-        
+
         <Label Grid.Row="0" Grid.Column="0" Content="Menu" Background="AliceBlue" Grid.ColumnSpan="3"/>
         <!-- Player Info-->
         <Grid Grid.Row="1" Grid.Column="0">
@@ -58,8 +58,17 @@
                 <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}"/>
                 <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.Level}"/>
             </Grid>
-            
-            <Label Grid.Row="1" Grid.Column="0" Content="Player Image" Background="AntiqueWhite"/>
+
+            <MediaElement Source="C:\Repo\Engine\Image\Player Image\Doom.mp4"
+               Width="300" 
+               Height="200" 
+               LoadedBehavior="Play" 
+               UnloadedBehavior="Manual" 
+               Margin="-25,151,-25,-151" 
+               Grid.RowSpan="2"
+               MediaEnded="MediaElement_MediaEnded"
+               PreviewMouseLeftButtonDown="MediaElement_PreviewMouseLeftButtonDown"/>
+
         </Grid>
 
 
@@ -71,7 +80,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            
+
             <Label Grid.Row="0" Grid.Column="0" Content="Item Image" Background="Bisque"/>
             <Label Grid.Row="0" Grid.Column="1" Content="Item Bottons" Background="Bisque"/>
         </Grid>
@@ -115,8 +124,8 @@
                     <TextBlock Text="Enemy Information" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 </Grid>
             </Border>
-        
-        
+
+
         </Grid>
         <Label Grid.Row="2" Grid.Column="2" Content="Navigation Bottons" Background="LightGray"/>
         <Grid Grid.Row="2" Grid.Column="2">
@@ -153,7 +162,7 @@
                     Click="OnClick_MoveSouth"
                     Visibility="{Binding HasLocationToSouth, Converter={StaticResource BooleanToVisibility}}"/>
         </Grid>
-        
-        
+
+
     </Grid>
 </Window>

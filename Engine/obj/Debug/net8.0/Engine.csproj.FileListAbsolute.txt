@@ -73,3 +73,16 @@ D:\Repo\Engine\obj\Debug\net8.0\refint\Engine.dll
 D:\Repo\Engine\obj\Debug\net8.0\Engine.pdb
 D:\Repo\Engine\obj\Debug\net8.0\ref\Engine.dll
 D:\Repo\Engine\obj\Debug\net8.0\Engine.g.resources
+C:\Repo\Engine\bin\Debug\net8.0\Engine.deps.json
+C:\Repo\Engine\bin\Debug\net8.0\Engine.dll
+C:\Repo\Engine\bin\Debug\net8.0\Engine.pdb
+C:\Repo\Engine\obj\Debug\net8.0\Engine.g.resources
+C:\Repo\Engine\obj\Debug\net8.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\Engine\obj\Debug\net8.0\Engine.AssemblyInfoInputs.cache
+C:\Repo\Engine\obj\Debug\net8.0\Engine.AssemblyInfo.cs
+C:\Repo\Engine\obj\Debug\net8.0\Engine.csproj.CoreCompileInputs.cache
+C:\Repo\Engine\obj\Debug\net8.0\Engine.sourcelink.json
+C:\Repo\Engine\obj\Debug\net8.0\Engine.dll
+C:\Repo\Engine\obj\Debug\net8.0\refint\Engine.dll
+C:\Repo\Engine\obj\Debug\net8.0\Engine.pdb
+C:\Repo\Engine\obj\Debug\net8.0\ref\Engine.dll

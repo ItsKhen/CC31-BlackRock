@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repo\\Game\\CC31B-Blackrock.csproj": {}
+    "C:\\Repo\\Game\\CC31B-Blackrock.csproj": {}
   },
   "projects": {
-    "D:\\Repo\\Engine\\Engine.csproj": {
+    "C:\\Repo\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repo\\Engine\\Engine.csproj",
+        "projectUniqueName": "C:\\Repo\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "D:\\Repo\\Engine\\Engine.csproj",
+        "projectPath": "C:\\Repo\\Engine\\Engine.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Repo\\Engine\\obj\\",
+        "outputPath": "C:\\Repo\\Engine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\Repo\\Game\\CC31B-Blackrock.csproj": {
+    "C:\\Repo\\Game\\CC31B-Blackrock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repo\\Game\\CC31B-Blackrock.csproj",
+        "projectUniqueName": "C:\\Repo\\Game\\CC31B-Blackrock.csproj",
         "projectName": "CC31B-Blackrock",
-        "projectPath": "D:\\Repo\\Game\\CC31B-Blackrock.csproj",
+        "projectPath": "C:\\Repo\\Game\\CC31B-Blackrock.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Repo\\Game\\obj\\",
+        "outputPath": "C:\\Repo\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,8 +96,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Repo\\Engine\\Engine.csproj": {
-                "projectPath": "D:\\Repo\\Engine\\Engine.csproj"
+              "C:\\Repo\\Engine\\Engine.csproj": {
+                "projectPath": "C:\\Repo\\Engine\\Engine.csproj"
               }
             }
           }
