@@ -18,10 +18,11 @@ namespace Engine.Factories
             List<ItemQuantity> rewardItems = new List<ItemQuantity>();
 
             itemsToComplete.Add(new ItemQuantity(9001, 5));
+            itemsToComplete.Add(new ItemQuantity(1003, 4));
             rewardItems.Add(new ItemQuantity(1002, 1));
 
             // Create the quest
-            _quests.Add(new Quest(1, "Clear the herb garden", "Defeat the snakes in the herbalist's garden.",
+            _quests.Add(new Quest(1, "Defeat Antolin", "Get Branch in the Forest",
                 itemsToComplete, 25, 10, rewardItems));
         }
 

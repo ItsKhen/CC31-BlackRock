@@ -13,47 +13,46 @@ namespace Engine.Factories
         {
             World newWorld = new World();
 
-newWorld.AddLocation(0, 0,
- "SafeHouse",
-   "Y",
-   "pack://application:,,,/Engine;component/Image/SafeHouse.png");
+newWorld.AddLocation(0, 0,"SafeHouse",
+   "This is your safe place",
+   "pack://application:,,,/Engine;component/Image/Locations/SafeHouse.png");
 
 newWorld.AddLocation(-1, 0,
     "Khenert's Arch",
-     "Underway",
-    "pack://application:,,,/Engine;component/Image/Khenert's Arch.png");
+     "A place for trading",
+    "pack://application:,,,/Engine;component/Image/Locations/Khenert's Arch.png");
 newWorld.AddLocation(0, -1,
      "Jc Village",
-     "Underway",
-    "pack://application:,,,/Engine;component/Image/JCVillage.png");
+     "A place for trading goods!",
+    "pack://application:,,,/Engine;component/Image/Locations/JCVillage.png");
 newWorld.AddLocation(1, -1,
    "Bandit's Wood",
-     "Bandit's Wood",
-    "pack://application:,,,/Engine;component/Image/BanditWood.png");
+     "Careful! There are enemies",
+    "pack://application:,,,/Engine;component/Image/Locations/BanditsWood.png");
 newWorld.AddLocation(2, -1,
   "Tower of Chosen",
-     "Tower of Chosen",
-  "pack://application:,,,/Engine;component/Image/Tower.png");
+     "Climb up the tower and fight!",
+  "pack://application:,,,/Engine;component/Image/Locations/TowerOfChosen.png");
 newWorld.AddLocation(-1, -1,
    "8 Mile",
-     "Underway",
-    "pack://application:,,,/Engine;component/Image/8Mile.png");
+     "Gangster's!",
+    "pack://application:,,,/Engine;component/Image/Locations/8Mile.png");
 newWorld.AddLocation(-1, -2,
    "GangBoss Hideout",
-     "Underway",
-    "pack://application:,,,/Engine;component/Image/GangBoss.png");
+     "Their Boss is here get ready to fight",
+    "pack://application:,,,/Engine;component/Image/Locations/GangstaBoss.png");
 newWorld.AddLocation(-1, -3,
    "Antolin Den",
-     "Underway",
-    "pack://application:,,,/Engine;component/Image/AntolinDen.png");
+     "A SCARY BIG ANTOLIN!!",
+    "pack://application:,,,/Engine;component/Image/Locations/AntolinsDen.png");
 newWorld.AddLocation(0, -3,
    "Mecha Stash",
-     "Underway",
-    "pack://application:,,,/Engine;component/Image/BossMecha.png");
+     "An enemy bountiful of loots!",
+    "pack://application:,,,/Engine;component/Image/Locations/BossMecha.png");
 newWorld.AddLocation(1, -3,
     "Exit Point",
      "Underway",
-    "pack://application:,,,/Engine;component/Image/Exit.png");
+    "pack://application:,,,/Engine;component/Image/Locations/ExitPoint.png");
 
             return newWorld;
         }

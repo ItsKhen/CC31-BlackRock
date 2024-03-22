@@ -7,36 +7,37 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Image\8Mile.png" />
-    <None Remove="Image\AntolinDen.png" />
-    <None Remove="Image\BanditWood.png" />
-    <None Remove="Image\BossMecha.png" />
-    <None Remove="Image\Exit.png" />
-    <None Remove="Image\GangBoss.png" />
-    <None Remove="Image\JCVillage.png" />
-    <None Remove="Image\Khenert%27s Arch.png" />
+    <None Remove="Image\Locations\8Mile.png" />
+    <None Remove="Image\Locations\AntolinsDen.png" />
+    <None Remove="Image\Locations\BanditsWood.png" />
+    <None Remove="Image\Locations\BossMecha.png" />
+    <None Remove="Image\Locations\ExitPoint.png" />
+    <None Remove="Image\Locations\GangstaBoss.png" />
+    <None Remove="Image\Locations\JCVillage.png" />
+    <None Remove="Image\Locations\Khenert%27s Arch.png" />
+    <None Remove="Image\Locations\Placeholder.png" />
+    <None Remove="Image\Locations\SafeHouse.png" />
+    <None Remove="Image\Locations\TowerOfChosen.png" />
+    <None Remove="Image\Player Image\DOOM 2 face.mp4" />
     <None Remove="Image\Player Image\Doom.gif" />
-    <None Remove="Image\SafeHouse.png" />
-    <None Remove="Image\Tower.png" />
+    <None Remove="Image\Player Image\Doom.mp4" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Image\Locations\" />
-    <Folder Include="Image\Locations\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Image\8Mile.png" />
-    <Resource Include="Image\AntolinDen.png" />
-    <Resource Include="Image\BanditWood.png" />
-    <Resource Include="Image\BossMecha.png" />
-    <Resource Include="Image\Exit.png" />
-    <Resource Include="Image\GangBoss.png" />
-    <Resource Include="Image\JCVillage.png" />
-    <Resource Include="Image\Khenert's Arch.png" />
+    <Resource Include="Image\Locations\8Mile.png" />
+    <Resource Include="Image\Locations\AntolinsDen.png" />
+    <Resource Include="Image\Locations\BanditsWood.png" />
+    <Resource Include="Image\Locations\BossMecha.png" />
+    <Resource Include="Image\Locations\ExitPoint.png" />
+    <Resource Include="Image\Locations\GangstaBoss.png" />
+    <Resource Include="Image\Locations\JCVillage.png" />
+    <Resource Include="Image\Locations\Khenert's Arch.png" />
+    <Resource Include="Image\Locations\Placeholder.png" />
+    <Resource Include="Image\Locations\SafeHouse.png" />
+    <Resource Include="Image\Locations\TowerOfChosen.png" />
+    <Resource Include="Image\Player Image\DOOM 2 face.mp4" />
     <Resource Include="Image\Player Image\Doom.gif" />
-    <Resource Include="Image\SafeHouse.png" />
-    <Resource Include="Image\Tower.png" />
+    <Resource Include="Image\Player Image\Doom.mp4" />
   </ItemGroup>
 
 </Project>

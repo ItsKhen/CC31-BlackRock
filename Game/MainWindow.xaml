@@ -25,7 +25,7 @@
 
         <Label Grid.Row="0" Grid.Column="0" Content="Menu" Background="AliceBlue" Grid.ColumnSpan="3"/>
         <!-- Player Info-->
-        <Grid Grid.Row="1" Grid.Column="0">
+        <Grid Grid.Row="1" Grid.Column="0" Background="Bisque">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -45,12 +45,12 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Content="Name:"/>
-                <Label Grid.Row="1" Grid.Column="0" Content="Class:"/>
-                <Label Grid.Row="2" Grid.Column="0" Content="Hit Points:"/>
-                <Label Grid.Row="3" Grid.Column="0" Content="Gold:"/>
-                <Label Grid.Row="4" Grid.Column="0" Content="Exp:"/>
-                <Label Grid.Row="5" Grid.Column="0" Content="Level:"/>
+                <Label Grid.Row="0" Grid.Column="0" Content="Name:" FontFamily="Papyrus" FontWeight="Bold" FontSize="14"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="Class:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="Hit Points:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
+                <Label Grid.Row="3" Grid.Column="0" Content="Gold:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="Exp:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
+                <Label Grid.Row="5" Grid.Column="0" Content="Level:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
                 <Label Grid.Row="0" Grid.Column="1" Content="{Binding CurrentPlayer.Name}"/>
                 <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}"/>
                 <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}"/>
@@ -64,25 +64,24 @@
                Height="200" 
                LoadedBehavior="Play" 
                UnloadedBehavior="Manual" 
-               Margin="-25,151,-25,-151" 
+               Margin="-25,196,-25,-196" 
                Grid.RowSpan="2"
                MediaEnded="MediaElement_MediaEnded"
                PreviewMouseLeftButtonDown="MediaElement_PreviewMouseLeftButtonDown"/>
 
         </Grid>
 
-
-        <Label Grid.Row="2" Grid.Column="0" Content="Inventory" Background="LightGray"/>
-        <Label Grid.Row="1" Grid.Column="1" Content="Game Messages" Background="Azure"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Inventory" Background="LightGray" FontWeight="Bold" FontSize="16"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="Game Messages" Background="Azure" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center"/>
         <!-- Item/ Item Action Bottons-->
         <Grid Grid.Row="2" Grid.Column="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width=" *"/>
             </Grid.ColumnDefinitions>
 
-            <Label Grid.Row="0" Grid.Column="0" Content="Item Image" Background="Bisque"/>
-            <Label Grid.Row="0" Grid.Column="1" Content="Item Bottons" Background="Bisque"/>
+            <Label Grid.Row="0" Grid.Column="0" Content="Item Image" Background="Bisque" FontSize="16" FontWeight="Bold"/>
+            <Label Grid.Row="0" Grid.Column="1" Content="Item Bottons" Background="Bisque" FontSize="16" FontWeight="Bold"/>
         </Grid>
 
         <!-- Location info/Enemy Info-->
@@ -103,31 +102,32 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Border Grid.Row="0" BorderBrush="Gainsboro" BorderThickness="1" Margin="3">
-                    <TextBlock Grid.Row="0"
+                    <TextBlock Grid.Row="0" Foreground="White" FontWeight="Bold"
                HorizontalAlignment="Center"
                Text="{Binding CurrentLocation.Name}"/>
                 </Border>
-
-                <TextBlock Grid.Row="2"
+                <Border Grid.Row="4" BorderBrush="Gainsboro" BorderThickness="1" Margin="3">
+                    <TextBlock Grid.Row="2" Foreground="White" FontWeight="Bold"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
                Text="{Binding CurrentLocation.Description}"
-               TextWrapping="Wrap"/> 
+               TextWrapping="Wrap"/>
+                </Border>
             </Grid>
 
             <Border Grid.Row="1" Grid.Column="0" Background="Bisque">
                 <Grid>
                     <!-- Add your image here -->
-                  
+
 
                     <!-- Optionally, add text or other elements below the image -->
-                    <TextBlock Text="Enemy Information" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <TextBlock Text="Enemy Information" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="16" FontWeight="Bold"/>
                 </Grid>
             </Border>
 
 
         </Grid>
-        <Label Grid.Row="2" Grid.Column="2" Content="Navigation Buttons" Background="LightGray"/>
+        <Label Grid.Row="2" Grid.Column="2" Content="Navigation Bottons" Background="LightGray" FontSize="16" FontWeight="Bold"/>
         <Grid Grid.Row="2" Grid.Column="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -142,7 +142,7 @@
             </Grid.ColumnDefinitions>
 
             <Button Grid.Row="0" Grid.Column="1"
-                    Height="30" Margin="10"
+                    Height="30" Margin="10,45,10,0"
                     Content="North"
                     Click="OnClick_MoveNorth"
                     Visibility="{Binding HasLocationToNorth, Converter={StaticResource BooleanToVisibility}}"/>
@@ -157,7 +157,7 @@
                     Click="OnClick_MoveEast"
                     Visibility="{Binding HasLocationToEast, Converter={StaticResource BooleanToVisibility}}"/>
             <Button Grid.Row="2" Grid.Column="1"
-                    Height="30" Margin="10"
+                    Height="30" Margin="10,0,10,45"
                     Content="South"
                     Click="OnClick_MoveSouth"
                     Visibility="{Binding HasLocationToSouth, Converter={StaticResource BooleanToVisibility}}"/>

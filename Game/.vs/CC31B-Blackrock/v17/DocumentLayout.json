@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Repo\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|c:\\repo\\game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\factories\\worldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\factories\\traderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\factories\\monsterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\factories\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|c:\\repo\\game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\factories\\traderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\factories\\questfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\factories\\monsterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\models\\trader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\factories\\questfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\models\\viewmodels\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -96,34 +96,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Repo\\Game\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Repo\\Game\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-10T04:16:39.83Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WorldFactory.cs",
-              "DocumentMoniker": "C:\\Repo\\Engine\\Factories\\WorldFactory.cs",
-              "RelativeDocumentMoniker": "..\\Engine\\Factories\\WorldFactory.cs",
-              "ToolTip": "C:\\Repo\\Engine\\Factories\\WorldFactory.cs",
-              "RelativeToolTip": "..\\Engine\\Factories\\WorldFactory.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T08:06:27.493Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -139,6 +113,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Repo\\Game\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Repo\\Game\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T09:03:04.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorldFactory.cs",
+              "DocumentMoniker": "C:\\Repo\\Engine\\Factories\\WorldFactory.cs",
+              "RelativeDocumentMoniker": "..\\Engine\\Factories\\WorldFactory.cs",
+              "ToolTip": "C:\\Repo\\Engine\\Factories\\WorldFactory.cs",
+              "RelativeToolTip": "..\\Engine\\Factories\\WorldFactory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:47:38.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -178,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MonsterFactory.cs",
               "DocumentMoniker": "C:\\Repo\\Engine\\Factories\\MonsterFactory.cs",
               "RelativeDocumentMoniker": "..\\Engine\\Factories\\MonsterFactory.cs",
@@ -186,12 +185,11 @@
               "RelativeToolTip": "..\\Engine\\Factories\\MonsterFactory.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T07:09:05.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T07:09:05.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TraderFactory.cs",
               "DocumentMoniker": "C:\\Repo\\Engine\\Factories\\TraderFactory.cs",
               "RelativeDocumentMoniker": "..\\Engine\\Factories\\TraderFactory.cs",
@@ -204,32 +202,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "QuestFactory.cs",
               "DocumentMoniker": "C:\\Repo\\Engine\\Factories\\QuestFactory.cs",
               "RelativeDocumentMoniker": "..\\Engine\\Factories\\QuestFactory.cs",
               "ToolTip": "C:\\Repo\\Engine\\Factories\\QuestFactory.cs",
               "RelativeToolTip": "..\\Engine\\Factories\\QuestFactory.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCEAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T09:05:31.045Z"
+              "WhenOpened": "2024-03-21T09:05:31.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ItemFactory.cs",
               "DocumentMoniker": "C:\\Repo\\Engine\\Factories\\ItemFactory.cs",
               "RelativeDocumentMoniker": "..\\Engine\\Factories\\ItemFactory.cs",
               "ToolTip": "C:\\Repo\\Engine\\Factories\\ItemFactory.cs",
               "RelativeToolTip": "..\\Engine\\Factories\\ItemFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T08:56:05.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Repo\\Engine\\Models\\Weapon.cs",
               "RelativeDocumentMoniker": "..\\Engine\\Models\\Weapon.cs",
@@ -241,13 +240,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "GameItem.cs",
               "DocumentMoniker": "C:\\Repo\\Engine\\Models\\GameItem.cs",
               "RelativeDocumentMoniker": "..\\Engine\\Models\\GameItem.cs",
               "ToolTip": "C:\\Repo\\Engine\\Models\\GameItem.cs",
               "RelativeToolTip": "..\\Engine\\Models\\GameItem.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T08:51:28.124Z",
               "EditorCaption": ""
@@ -266,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Trader.cs",
               "DocumentMoniker": "C:\\Repo\\Engine\\Models\\Trader.cs",
               "RelativeDocumentMoniker": "..\\Engine\\Models\\Trader.cs",
