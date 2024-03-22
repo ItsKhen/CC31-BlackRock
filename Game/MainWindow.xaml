@@ -127,7 +127,7 @@
 
 
         </Grid>
-        <Label Grid.Row="2" Grid.Column="2" Content="Navigation Bottons" Background="LightGray"/>
+        <Label Grid.Row="2" Grid.Column="2" Content="Navigation Buttons" Background="LightGray"/>
         <Grid Grid.Row="2" Grid.Column="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
