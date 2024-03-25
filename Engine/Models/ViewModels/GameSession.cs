@@ -61,7 +61,7 @@ namespace Engine.Models.ViewModels
         public World CurrentWorld { get; set; }
         public GameSession() 
         {
-            CurrentPlayer = new Player{ Name = "Canhurt", CharacterClass = "Broker", HitPoints = 100, Gold = 1000000, ExperiencePoints = 0, Level = 1 };
+            CurrentPlayer = new Player{ Name = "Khenert", CharacterClass = "Assassin", HitPoints = 100, Gold = 1000000, ExperiencePoints = 500, Level = 115 };
 
             CurrentWorld = WorldFactory.CreateWorld();
             CurrentLocation = CurrentWorld.LocationAt(0,0);

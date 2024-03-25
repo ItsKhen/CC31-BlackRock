@@ -11,6 +11,7 @@
         <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
     </Window.Resources>
     <Grid>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -25,13 +26,20 @@
 
         <Label Grid.Row="0" Grid.Column="0" Content="Menu" Background="AliceBlue" Grid.ColumnSpan="3"/>
         <!-- Player Info-->
-        <Grid Grid.Row="1" Grid.Column="0" Background="Bisque">
+        <Grid Grid.Row="1" Grid.Column="0">
+            
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\Repo\Engine\Image\Player Image\4_81.png" Stretch="UniformToFill"/>
+            </Grid.Background>
+
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <!-- Player Stats -->
             <Grid Grid.Row="0" Grid.Column="0">
+
+           
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
@@ -45,34 +53,48 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Content="Name:" FontFamily="Papyrus" FontWeight="Bold" FontSize="14"/>
-                <Label Grid.Row="1" Grid.Column="0" Content="Class:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
-                <Label Grid.Row="2" Grid.Column="0" Content="Hit Points:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
-                <Label Grid.Row="3" Grid.Column="0" Content="Gold:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
-                <Label Grid.Row="4" Grid.Column="0" Content="Exp:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
-                <Label Grid.Row="5" Grid.Column="0" Content="Level:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14"/>
-                <Label Grid.Row="0" Grid.Column="1" Content="{Binding CurrentPlayer.Name}"/>
-                <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}"/>
-                <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}"/>
-                <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Gold}"/>
-                <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}"/>
-                <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.Level}"/>
+                <Label Grid.Row="0" Grid.Column="0" Content="Name:" FontFamily="Papyrus" FontWeight="Bold" FontSize="14" Foreground="Black"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="Class:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="Hit Points:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
+                <Label Grid.Row="3" Grid.Column="0" Content="Gold:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="Exp:" FontFamily="Papyrus" FontWeight="ExtraBold"  FontSize="14" Foreground="Black"/>
+                <Label Grid.Row="5" Grid.Column="0" Content="Level:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
+                <Label Grid.Row="0" Grid.Column="1" Content="{Binding CurrentPlayer.Name}" FontWeight="Bold"/>
+                <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}" FontWeight="Bold"/>
+                <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}" FontWeight="Bold"/>
+                <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Gold}" FontWeight="Bold"/>
+                <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}" FontWeight="Bold"/>
+                <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.Level}" FontWeight="Bold"/>
+
             </Grid>
 
-            <MediaElement Source="C:\Repo\Engine\Image\Player Image\Doom.mp4"
-               Width="300" 
+            <MediaElement Source="C:\Repo\Engine\Image\Player Image\Samurai Final.mp4"
+               Width="250" 
                Height="200" 
                LoadedBehavior="Play" 
                UnloadedBehavior="Manual" 
-               Margin="-25,196,-25,-196" 
+               Margin="-25,300,-25,-200" 
                Grid.RowSpan="2"
                MediaEnded="MediaElement_MediaEnded"
-               PreviewMouseLeftButtonDown="MediaElement_PreviewMouseLeftButtonDown"/>
+               PreviewMouseLeftButtonDown="MediaElement_PreviewMouseLeftButtonDown"
+                           Stretch="Fill"/>
+            <!-- or Stretch="Uniform" -->
+
 
         </Grid>
-
         <Label Grid.Row="2" Grid.Column="0" Content="Inventory" Background="LightGray" FontWeight="Bold" FontSize="16"/>
-        <Label Grid.Row="1" Grid.Column="1" Content="Game Messages" Background="Azure" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Label Grid.Row="1" Grid.Column="1" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center">
+            <Grid>
+                <MediaElement Source="C:\Repo\Engine\Image\My Video.mp4"
+                      LoadedBehavior="Play"
+                      UnloadedBehavior="Manual"
+                      Stretch="Fill"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Stretch"
+                      MediaEnded="MediaElement_MediaEnded"
+                      PreviewMouseLeftButtonDown="MediaElement_PreviewMouseLeftButtonDown"/>
+            </Grid>
+        </Label>
         <!-- Item/ Item Action Bottons-->
         <Grid Grid.Row="2" Grid.Column="1">
             <Grid.ColumnDefinitions>
