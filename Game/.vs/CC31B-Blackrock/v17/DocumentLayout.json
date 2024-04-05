@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Repo\\Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|c:\\repo\\game\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\models\\viewmodels\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|c:\\repo\\game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|c:\\repo\\game\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52012DB1-2DF0-4C00-A5E1-43052A35166C}|CC31B-Blackrock.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{680A0B14-74D0-4C91-AB98-348F7C39DA33}|..\\Engine\\Engine.csproj|c:\\repo\\engine\\models\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -57,17 +57,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Repo\\Game\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Repo\\Game\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAEAAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwEAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T04:16:39.822Z",
               "IsPinned": true,
@@ -75,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Repo\\Game\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -83,8 +83,7 @@
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-22T09:03:04.57Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -104,16 +103,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameSession.cs",
               "DocumentMoniker": "C:\\Repo\\Engine\\Models\\ViewModels\\GameSession.cs",
               "RelativeDocumentMoniker": "..\\Engine\\Models\\ViewModels\\GameSession.cs",
               "ToolTip": "C:\\Repo\\Engine\\Models\\ViewModels\\GameSession.cs",
               "RelativeToolTip": "..\\Engine\\Models\\ViewModels\\GameSession.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAswGoAAAAAAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAAGoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T07:16:00.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T07:16:00.215Z"
             },
             {
               "$type": "Document",
@@ -210,8 +208,7 @@
               "ToolTip": "C:\\Repo\\Game\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-10T04:16:39.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-10T04:16:39.842Z"
             },
             {
               "$type": "Document",
