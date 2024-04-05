@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Image\83418edd81082f28ad0338ae6719545f.gif" />
     <None Remove="Image\Locations\8Mile.png" />
     <None Remove="Image\Locations\AntolinsDen.png" />
     <None Remove="Image\Locations\BanditsWood.png" />
@@ -18,9 +19,16 @@
     <None Remove="Image\Locations\Placeholder.png" />
     <None Remove="Image\Locations\SafeHouse.png" />
     <None Remove="Image\Locations\TowerOfChosen.png" />
+    <None Remove="Image\My Video.mp4" />
+    <None Remove="Image\Player Image\01073865290819.5d61d475f0072.jpg" />
+    <None Remove="Image\Player Image\Samurai Final.mp4" />
+    <None Remove="Image\Player Image\Samurai.mp4" />
+    <None Remove="Image\Player Image\SamuraiFilled.mp4" />
+    <None Remove="Image\Player Image\sky.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Image\83418edd81082f28ad0338ae6719545f.gif" />
     <Resource Include="Image\Locations\8Mile.png" />
     <Resource Include="Image\Locations\AntolinsDen.png" />
     <Resource Include="Image\Locations\BanditsWood.png" />
@@ -32,6 +40,12 @@
     <Resource Include="Image\Locations\Placeholder.png" />
     <Resource Include="Image\Locations\SafeHouse.png" />
     <Resource Include="Image\Locations\TowerOfChosen.png" />
+    <Resource Include="Image\My Video.mp4" />
+    <Resource Include="Image\Player Image\01073865290819.5d61d475f0072.jpg" />
+    <Resource Include="Image\Player Image\sky.png" />
+    <Resource Include="Image\Player Image\Samurai Final.mp4" />
+    <Resource Include="Image\Player Image\Samurai.mp4" />
+    <Resource Include="Image\Player Image\SamuraiFilled.mp4" />
   </ItemGroup>
 
 </Project>

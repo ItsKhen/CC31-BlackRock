@@ -29,7 +29,7 @@
         <Grid Grid.Row="1" Grid.Column="0">
             
             <Grid.Background>
-                <ImageBrush ImageSource="C:\Repo\Engine\Image\Player Image\4_81.png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="C:\Repo\Engine\Image\Player Image\sky.png" Stretch="UniformToFill"/>
             </Grid.Background>
 
             <Grid.RowDefinitions>
