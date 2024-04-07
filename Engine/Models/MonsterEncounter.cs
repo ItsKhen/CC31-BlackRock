@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Engine.Models
 {
-    internal class MonsterEncounter
+    public class MonsterEncounter
     {
+        public int MonsterID { get; set; }
+        public int EncounterRate { get; set; }
+
+        public MonsterEncounter(int monsterID, int encounterRate)
+        {
+            MonsterID = monsterID;
+            EncounterRate = encounterRate;
+        }
     }
 }
