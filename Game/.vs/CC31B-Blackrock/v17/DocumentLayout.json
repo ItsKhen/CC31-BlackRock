@@ -82,8 +82,7 @@
               "ViewState": "AQIAACEAAAAAAAAAAAAowBIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T04:16:39.822Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -96,19 +95,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-22T09:03:04.57Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TraderFactory.cs",
-              "DocumentMoniker": "C:\\Repo\\Engine\\Factories\\TraderFactory.cs",
-              "RelativeDocumentMoniker": "..\\Engine\\Factories\\TraderFactory.cs",
-              "ToolTip": "C:\\Repo\\Engine\\Factories\\TraderFactory.cs",
-              "RelativeToolTip": "..\\Engine\\Factories\\TraderFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:18:47.521Z",
               "EditorCaption": ""
             },
             {
@@ -129,6 +115,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TraderFactory.cs",
+              "DocumentMoniker": "C:\\Repo\\Engine\\Factories\\TraderFactory.cs",
+              "RelativeDocumentMoniker": "..\\Engine\\Factories\\TraderFactory.cs",
+              "ToolTip": "C:\\Repo\\Engine\\Factories\\TraderFactory.cs",
+              "RelativeToolTip": "..\\Engine\\Factories\\TraderFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T14:18:47.521Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Engine.csproj",
               "DocumentMoniker": "C:\\Repo\\Engine\\Engine.csproj",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "..\\Engine\\Engine.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-05T13:59:55.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T13:59:55.05Z"
             },
             {
               "$type": "Document",
@@ -294,8 +291,7 @@
               "RelativeToolTip": "CC31B-Blackrock.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-10T04:16:39.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-10T04:16:39.854Z"
             }
           ]
         }
