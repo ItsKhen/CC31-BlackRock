@@ -10,7 +10,11 @@
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
     </Window.Resources>
+
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Repo\Engine\Image\Player Image\sky.png" Stretch="UniformToFill"/>
+        </Grid.Background>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -25,74 +29,65 @@
         </Grid.ColumnDefinitions>
 
         <Label Grid.Row="0" Grid.Column="0" Content="Menu" Background="AliceBlue" Grid.ColumnSpan="3"/>
-        <!-- Player Info-->
+
+        <!-- Border 1 -->
         <Grid Grid.Row="1" Grid.Column="0">
-            
-        
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <!-- Player Stats -->
-            <Grid Grid.Row="0" Grid.Column="0">
 
-           
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+            <Border BorderBrush="Gainsboro" BorderThickness="1" Margin="3">
+                <!-- Player Info -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Content="Name:" FontFamily="Papyrus" FontWeight="Bold" FontSize="14" Foreground="Black"/>
-                <Label Grid.Row="1" Grid.Column="0" Content="Class:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
-                <Label Grid.Row="2" Grid.Column="0" Content="Hit Points:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
-                <Label Grid.Row="3" Grid.Column="0" Content="Gold:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
-                <Label Grid.Row="4" Grid.Column="0" Content="Exp:" FontFamily="Papyrus" FontWeight="ExtraBold"  FontSize="14" Foreground="Black"/>
-                <Label Grid.Row="5" Grid.Column="0" Content="Level:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
-                <Label Grid.Row="0" Grid.Column="1" Content="{Binding CurrentPlayer.Name}" FontWeight="Bold"/>
-                <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}" FontWeight="Bold"/>
-                <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}" FontWeight="Bold"/>
-                <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Gold}" FontWeight="Bold"/>
-                <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}" FontWeight="Bold"/>
-                <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.Level}" FontWeight="Bold"/>
+                    <Label Grid.Row="0" Grid.Column="0" Content="Name:" FontFamily="Papyrus" FontWeight="Bold" FontSize="14" Foreground="Black"/>
+                    <Label Grid.Row="1" Grid.Column="0" Content="Class:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
+                    <Label Grid.Row="2" Grid.Column="0" Content="Hit Points:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
+                    <Label Grid.Row="3" Grid.Column="0" Content="Gold:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
+                    <Label Grid.Row="4" Grid.Column="0" Content="Exp:" FontFamily="Papyrus" FontWeight="ExtraBold"  FontSize="14" Foreground="Black"/>
+                    <Label Grid.Row="5" Grid.Column="0" Content="Level:" FontFamily="Papyrus" FontWeight="Bold"  FontSize="14" Foreground="Black"/>
+                    <Label Grid.Row="0" Grid.Column="1" Content="{Binding CurrentPlayer.Name}" FontWeight="Bold"/>
+                    <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}" FontWeight="Bold"/>
+                    <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}" FontWeight="Bold"/>
+                    <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Gold}" FontWeight="Bold"/>
+                    <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}" FontWeight="Bold"/>
+                    <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.Level}" FontWeight="Bold"/>
+                </Grid>
+            </Border>
 
-            </Grid>
-
+            <!-- Border 2 -->
             <MediaElement Source="C:\Repo\Engine\Image\Player Image\Samurai Final.mp4"
                Width="250" 
                Height="200" 
                LoadedBehavior="Play" 
                UnloadedBehavior="Manual" 
-               Margin="-25,300,-25,-200" 
+               Margin="-25,100,-25,-200" 
                Grid.RowSpan="2"
                MediaEnded="MediaElement_MediaEnded"
                PreviewMouseLeftButtonDown="MediaElement_PreviewMouseLeftButtonDown"
-                           Stretch="Fill"/>
-            <!-- or Stretch="Uniform" -->
-
-
+               Stretch="Fill"/>
         </Grid>
-        <Label Grid.Row="2" Grid.Column="0" Content="Inventory" Background="LightGray" FontWeight="Bold" FontSize="16"/>
-        <Label Grid.Row="1" Grid.Column="1" FontSize="14" FontWeight="Bold" HorizontalContentAlignment="Center">
-            <Grid>
-                <MediaElement Source="C:\Repo\Engine\Image\My Video.mp4"
-                      LoadedBehavior="Play"
-                      UnloadedBehavior="Manual"
-                      Stretch="Fill"
-                      HorizontalAlignment="Stretch"
-                      VerticalAlignment="Stretch"
-                      MediaEnded="MediaElement_MediaEnded"
-                      PreviewMouseLeftButtonDown="MediaElement_PreviewMouseLeftButtonDown"/>
-            </Grid>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Inventory" FontWeight="Bold" FontSize="16" Foreground="White">
+            <Label.Background>
+                <ImageBrush ImageSource="C:\Repo\Engine\Image\Player Image\BLACKbg.jpg" Stretch="UniformToFill"/>
+            </Label.Background>
         </Label>
-        <!-- Item/ Item Action Bottons-->
+
+        <!-- Border 3 -->
         <Grid Grid.Row="2" Grid.Column="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -100,17 +95,25 @@
             </Grid.ColumnDefinitions>
 
             <Label Grid.Row="0" Grid.Column="0" Content="Item Image" Background="Bisque" FontSize="16" FontWeight="Bold"/>
-            <Label Grid.Row="0" Grid.Column="1" Content="Item Bottons" Background="Bisque" FontSize="16" FontWeight="Bold"/>
+            <Label Grid.Row="0" Grid.Column="1" Content="Item Buttons" Background="Bisque" FontSize="16" FontWeight="Bold"/>
         </Grid>
 
-        <!-- Location info/Enemy Info-->
+        <!-- Border 4 -->
+        <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="3">
+            <!-- Center Border -->
+            <Grid>
+                <TextBlock Text="Center Border" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+        </Border>
+
+        <!-- Border 5 -->
         <Grid Grid.Row="1" Grid.Column="3">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <!-- Location Image-->
+            <!-- Border 6 -->
             <Grid Grid.Row="0" Grid.Column="0">
                 <Grid.Background>
                     <ImageBrush ImageSource="{Binding CurrentLocation.ImageName}" Stretch="UniformToFill"/>
@@ -134,19 +137,20 @@
                 </Border>
             </Grid>
 
+            <!-- Border 7 -->
             <Border Grid.Row="1" Grid.Column="0" Background="Bisque">
                 <Grid>
                     <!-- Add your image here -->
-
-
                     <!-- Optionally, add text or other elements below the image -->
                     <TextBlock Text="Enemy Information" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="16" FontWeight="Bold"/>
                 </Grid>
             </Border>
-
-
         </Grid>
-        <Label Grid.Row="2" Grid.Column="2" Content="Navigation Bottons" Background="LightGray" FontSize="16" FontWeight="Bold"/>
+
+        <!-- Border 8 -->
+        <Label Grid.Row="2" Grid.Column="2" Content="Navigation Buttons" Background="LightGray" FontSize="16" FontWeight="Bold"/>
+
+        <!-- Border 9 -->
         <Grid Grid.Row="2" Grid.Column="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -181,7 +185,5 @@
                     Click="OnClick_MoveSouth"
                     Visibility="{Binding HasLocationToSouth, Converter={StaticResource BooleanToVisibility}}"/>
         </Grid>
-
-
     </Grid>
 </Window>
